@@ -1,0 +1,201 @@
+Column1,movie_name,genre,human_frame,c_count,kor_name,eng_name,gender,av_age,disabled,d_type,d_BigCat,av_smile,anger,disgust,fear,happiness,neutral,sadness,surprise,most_emotion_expressed
+37,Agagil,Drama,3376,1461,���� (����),Bohyeon,Female,28.94,TRUE,Hearing Impairment,Phy,12,0.05,0.04,0.04,0.09,0.42,0.32,0.04,sadness
+38,Agagil,Drama,3376,612,���� (�ƺ�),Seongrak,Male,34.48,TRUE,Hearing Impairment,Phy,17,0.04,0.03,0.02,0.13,0.47,0.23,0.06,sadness
+41,Agagil,Drama,3376,35,�þ�Ӵ�,Mother-in-law,Female,53.69,FALSE,None,None,27,0,0,0.03,0.09,0.43,0.34,0.11,sadness
+40,Agagil,Drama,3376,461,��ȿ (�Ƶ�),Wonhyo,Male,18.2,FALSE,None,None,8,0.04,0.03,0.01,0.03,0.38,0.45,0.05,sadness
+39,Agagil,Drama,3376,105,ģ����Ӵ�,Mother,Female,39.79,FALSE,None,None,10,0.01,0,0.01,0.02,0.4,0.55,0.01,sadness
+5,Au Revoir UFO,Romance,4476,1758,�ְ��(����),Kyungwoo,Female,28.84,TRUE,Visual Impairment,Phy,35,0.02,0.02,0.01,0.32,0.44,0.14,0.05,happiness
+7,Au Revoir UFO,Romance,4476,1906,�ڻ���(����),Sanghyeon,Male,33.02,FALSE,None,None,23,0.04,0.05,0.04,0.19,0.45,0.14,0.09,happiness
+6,Au Revoir UFO,Romance,4476,83,������ ����,Real-estate Man,Male,62.99,FALSE,None,None,36,0.02,0.04,0.1,0.36,0.23,0.13,0.12,happiness
+9,Au Revoir UFO,Romance,4476,70,���,Sanggyu,Male,38.57,FALSE,None,None,29,0.03,0.03,0.03,0.26,0.41,0.2,0.04,happiness
+8,Au Revoir UFO,Romance,4476,51,������,Judo Boy,Male,24.65,FALSE,None,None,27,0.1,0.1,0.02,0.04,0.47,0.16,0.12,sadness
+10,Au Revoir UFO,Romance,4476,32,����,Jungtae,Male,33.84,FALSE,None,None,64,0,0.06,0,0.5,0.25,0.06,0.12,happiness
+29,Barefoot Gi Bong,Comedy,3200,978,�����,Kibong,Male,41.89,TRUE,Intellectual Disability,Psy,50,0.05,0.13,0.03,0.35,0.26,0.13,0.05,happiness
+33,Barefoot Gi Bong,Comedy,3200,59,�� ����,Village-Leader Noh,Male,50.1,FALSE,None,None,29,0.03,0.03,0.03,0.27,0.37,0.24,0.02,happiness
+30,Barefoot Gi Bong,Comedy,3200,538,������,Village-Leader Baek ,Male,62.47,FALSE,None,None,16,0.03,0.02,0.01,0.09,0.66,0.14,0.05,sadness
+32,Barefoot Gi Bong,Comedy,3200,346,����,Mother,Female,47.05,FALSE,None,None,10,0.02,0.03,0.01,0.08,0.49,0.24,0.14,sadness
+31,Barefoot Gi Bong,Comedy,3200,260,��â,Yeochang,Male,36.05,FALSE,None,None,22,0.04,0.04,0.03,0.17,0.43,0.17,0.11,happiness
+36,Barefoot Gi Bong,Comedy,3200,84,����,Yeongsam,Male,50.8,FALSE,None,None,6,0.08,0.11,0.02,0.02,0.42,0.31,0.04,sadness
+35,Barefoot Gi Bong,Comedy,3200,211,����,Jungwon,Female,29.43,FALSE,None,None,33,0.01,0,0.02,0.34,0.42,0.15,0.06,happiness
+34,Barefoot Gi Bong,Comedy,3200,139,�� ����,Village-Leader Choi,Male,38.06,FALSE,None,None,49,0,0.02,0.03,0.35,0.32,0.19,0.09,happiness
+119,Believer,Crime/Thriller,4389,33,����,Dongyeong,Male,31.21,TRUE,Hearing Impairment,Phy,13,0.03,0.06,0.09,0.06,0.3,0.12,0.33,surprise
+114,Believer,Crime/Thriller,4389,829,��,Rock,Male,26.79,FALSE,None,None,3,0.02,0.01,0.07,0.01,0.23,0.06,0.6,surprise
+117,Believer,Crime/Thriller,4389,134,�ڼ�â,Seonchang,Male,34.28,FALSE,None,None,15,0.01,0.01,0.1,0.07,0.24,0.14,0.43,surprise
+116,Believer,Crime/Thriller,4389,44,����,Boryeong,Female,35.8,FALSE,None,None,14,0.05,0.02,0.14,0.05,0.25,0.11,0.39,surprise
+120,Believer,Crime/Thriller,4389,46,����̾�,Brian,Male,35.04,FALSE,None,None,3,0.07,0.04,0.2,0.02,0.15,0.13,0.39,surprise
+113,Believer,Crime/Thriller,4389,132,������,Yeonok,Female,36.65,FALSE,None,None,3,0.05,0.01,0.05,0,0.12,0.14,0.63,surprise
+112,Believer,Crime/Thriller,4389,623,��ȣ,Wonho,Male,38.19,FALSE,None,None,4,0.04,0.02,0.09,0.02,0.3,0.17,0.36,surprise
+118,Believer,Crime/Thriller,4389,37,�ֿ�,Jooyeong,Female,28.03,TRUE,Hearing Impairment,Phy,20,0,0,0.24,0.03,0.22,0.11,0.41,surprise
+115,Believer,Crime/Thriller,4389,185,���ϸ�,Harim,Male,45.06,FALSE,None,None,11,0.02,0.01,0.11,0.1,0.31,0.09,0.36,surprise
+93,Blind,Crime/Thriller,2972,388,�Ǳ⼷,Kiseop,Male,22.95,FALSE,None,None,14,0.04,0.03,0.02,0.09,0.52,0.23,0.07,sadness
+88,Blind,Crime/Thriller,2972,25,�赿��,Donghyeon,Male,25.36,FALSE,None,None,28,0.04,0.04,0.04,0.16,0.24,0.28,0.2,sadness
+87,Blind,Crime/Thriller,2972,1141,�μ���,Sooah,Female,30.83,TRUE,Visual Impairment,Phy,13,0.01,0.02,0.03,0.11,0.62,0.15,0.06,sadness
+90,Blind,Crime/Thriller,2972,67,����,Investigation Leader,Male,52.63,FALSE,None,None,5,0.04,0.06,0.01,0.01,0.45,0.28,0.13,sadness
+91,Blind,Crime/Thriller,2972,97,����,Orphanage Director ,Female,40.25,FALSE,None,None,21,0.01,0.06,0.02,0.18,0.31,0.19,0.24,surprise
+89,Blind,Crime/Thriller,2972,549,������,Detective Jo,Male,35.77,FALSE,None,None,13,0.06,0.03,0.06,0.14,0.51,0.11,0.09,happiness
+92,Blind,Crime/Thriller,2972,113,�ָ���,Myeongjin,Male,37.31,FALSE,None,None,14,0.01,0.03,0.07,0.08,0.65,0.07,0.1,surprise
+192,Bunt,Comedy,2350,192,�� ��ġ,Coach Kwon,Male,32.58,FALSE,None,None,30,0.06,0.09,0.01,0.12,0.47,0.14,0.12,sadness
+185,Bunt,Comedy,2350,73,����,Class Leader,Female,22.51,FALSE,None,None,9,0.04,0.03,0.08,0.04,0.58,0.16,0.07,sadness
+188,Bunt,Comedy,2350,43,�ε��� ����,Real-estate Manager,Male,32.6,FALSE,None,None,15,0,0.02,0,0.09,0.65,0.14,0.09,sadness
+190,Bunt,Comedy,2350,153,��ö,Sangcheol,Male,38.32,FALSE,None,None,10,0.02,0.11,0.02,0.07,0.43,0.27,0.07,sadness
+187,Bunt,Comedy,2350,16,������,Yaeryeong,Female,16.44,FALSE,None,None,7,0,0,0,0.06,0.88,0.06,0,happiness
+189,Bunt,Comedy,2350,208,����,Joontae,Male,10.65,FALSE,None,None,17,0.01,0.02,0,0.14,0.53,0.21,0.08,sadness
+186,Bunt,Comedy,2350,426,�㵿��,Donggu,Male,11.65,TRUE,Intellectual Disability,Psy,28,0.04,0.08,0.01,0.2,0.46,0.14,0.07,happiness
+191,Bunt,Comedy,2350,491,������,Jingyu,Male,39.21,FALSE,None,None,23,0.09,0.04,0.06,0.13,0.56,0.07,0.04,happiness
+42,Cheer Up Mr Lee,Comedy,4265,1267,��ö��,Chulsoo,Male,35.55,TRUE,Intellectual Disability,Psy,4,0.03,0.05,0.05,0.02,0.35,0.35,0.14,sadness
+46,Cheer Up Mr Lee,Comedy,4265,60,������,Police Officer,Male,46,FALSE,None,None,1,0.03,0,0.05,0,0.63,0.25,0.03,sadness
+44,Cheer Up Mr Lee,Comedy,4265,185,�达,Mr Kim,Male,54.8,FALSE,None,None,4,0.04,0.05,0.15,0.03,0.25,0.38,0.11,sadness
+52,Cheer Up Mr Lee,Comedy,4265,210,����,Deokgu,Male,44.33,FALSE,None,None,26,0.05,0.11,0.05,0.16,0.36,0.14,0.13,happiness
+49,Cheer Up Mr Lee,Comedy,4265,38,����,Minjeong,Female,23.26,FALSE,None,None,8,0.03,0.03,0.03,0.05,0.34,0.39,0.13,sadness
+47,Cheer Up Mr Lee,Comedy,4265,738,����(��),Saetbyeol,Female,22.11,FALSE,None,None,12,0.01,0.01,0.03,0.08,0.5,0.33,0.06,sadness
+53,Cheer Up Mr Lee,Comedy,4265,42,�ҹ浿��1,Firefighter1,Male,45.79,FALSE,None,None,10,0,0.07,0.05,0,0.43,0.36,0.1,sadness
+50,Cheer Up Mr Lee,Comedy,4265,114,��θ�,Boss Yang,Male,40.68,FALSE,None,None,14,0.01,0.04,0.08,0.04,0.64,0.13,0.05,sadness
+43,Cheer Up Mr Lee,Comedy,4265,366,����,Yeongsoo,Male,32.96,FALSE,None,None,18,0.03,0.03,0.07,0.09,0.5,0.21,0.07,sadness
+51,Cheer Up Mr Lee,Comedy,4265,39,����,Hyeyeong,Female,29.05,FALSE,None,None,30,0.1,0.03,0.08,0.03,0.08,0.67,0.03,sadness
+45,Cheer Up Mr Lee,Comedy,4265,323,����,Huija,Female,51.55,FALSE,None,None,6,0.01,0,0.08,0.04,0.56,0.2,0.11,sadness
+140,Glove,Drama,5519,748,����,Vice Principal,Male,45.8,FALSE,None,None,5,0.05,0.04,0.1,0.03,0.34,0.1,0.35,surprise
+142,Glove,Drama,5519,269,���� ����,Principal Nun,Female,38.22,FALSE,None,None,6,0.01,0.02,0.1,0.02,0.24,0.24,0.38,surprise
+143,Glove,Drama,5519,36,������,Club Head,Male,65.28,FALSE,None,None,5,0.06,0,0,0.08,0.17,0.03,0.67,surprise
+139,Glove,Drama,5519,1515,���,Sangnam,Male,40.04,FALSE,None,None,5,0.06,0.05,0.05,0.02,0.33,0.07,0.43,surprise
+144,Glove,Drama,5519,128,������,Jinman,Male,27.11,TRUE,Hearing Impairment,Phy,6,0.03,0.02,0.13,0.01,0.27,0.2,0.34,surprise
+137,Glove,Drama,5519,637,���ֿ�,Joowon,Female,33.56,FALSE,None,None,10,0.02,0.03,0.13,0.02,0.18,0.09,0.54,surprise
+138,Glove,Drama,5519,264,����,Daegeun,Male,28.12,TRUE,Hearing Impairment,Phy,7,0.01,0.03,0.13,0.01,0.15,0.23,0.44,surprise
+134,Glove,Drama,5519,843,������,Myeongjae,Male,29.62,TRUE,Hearing Impairment,Phy,10,0.06,0.03,0.12,0.01,0.25,0.09,0.44,surprise
+136,Glove,Drama,5519,68,������ ��Ӵ�,Myeongjae's Mother,Female,41.93,FALSE,None,None,18,0.06,0.01,0.1,0.06,0.19,0.09,0.49,surprise
+135,Glove,Drama,5519,785,����,Charles,Male,33.96,FALSE,None,None,11,0.04,0.04,0.08,0.03,0.28,0.16,0.37,surprise
+141,Glove,Drama,5519,65,�������,Police Chief,Male,53.94,FALSE,None,None,8,0.03,0.02,0.17,0.03,0.08,0.06,0.62,surprise
+165,Innocence,Drama,4446,72,������,Iljung,Male,59.92,FALSE,None,None,8,0.11,0.06,0.06,0.01,0.24,0.19,0.33,surprise
+161,Innocence,Drama,4446,2009,������ (���),Jungin,Female,31.27,FALSE,None,None,3,0.05,0.02,0.07,0.01,0.18,0.11,0.57,surprise
+166,Innocence,Drama,4446,69,�����,Soonkyeong,Male,48.51,FALSE,None,None,9,0.1,0.04,0.06,0.03,0.35,0.28,0.14,sadness
+163,Innocence,Drama,4446,129,����,Jeongsoo,Male,28.07,TRUE,Autism,Psy,10,0.11,0.06,0.04,0.05,0.19,0.14,0.4,surprise
+164,Innocence,Drama,4446,138,������,Seedling Dealer,Male,60.68,FALSE,None,None,6,0.03,0.05,0.09,0.01,0.25,0.17,0.39,surprise
+162,Innocence,Drama,4446,405,äȭ�� (����),Hwaja,Female,48.16,FALSE,None,None,5,0.05,0.03,0.08,0.01,0.22,0.21,0.4,surprise
+160,Innocence,Drama,4446,642,�߽���,Mayor Choo,Male,51.82,FALSE,None,None,7,0.06,0.06,0.2,0.02,0.18,0.11,0.37,surprise
+179,Innocent Witness,Drama,5282,1060,������,Jiwoo,Female,28.57,TRUE,Autism,Psy,9,0.04,0.01,0.1,0.06,0.17,0.17,0.45,surprise
+183,Innocent Witness,Drama,5282,63,����,Kyunghee,Female,25.92,FALSE,None,None,19,0.03,0.02,0.03,0.1,0.11,0.13,0.59,surprise
+184,Innocent Witness,Drama,5282,99,�̶�,Miran,Female,34.72,FALSE,None,None,18,0.08,0.01,0.04,0.04,0.22,0.29,0.31,surprise
+181,Innocent Witness,Drama,5282,161,����,Byeongwoo,Male,54.83,FALSE,None,None,7,0.28,0.06,0.04,0.02,0.2,0.06,0.35,surprise
+177,Innocent Witness,Drama,5282,1021,��ȣ,Soonho,Male,35.35,FALSE,None,None,9,0.04,0.02,0.1,0.04,0.31,0.15,0.35,surprise
+180,Innocent Witness,Drama,5282,26,��ȣ ��,Soonho's Father,Male,60.96,FALSE,None,None,3,0.04,0,0.08,0,0.42,0.12,0.35,surprise
+182,Innocent Witness,Drama,5282,125,����,Hyeonjung,Female,34.8,FALSE,None,None,7,0.07,0.01,0.1,0.01,0.24,0.06,0.51,surprise
+178,Innocent Witness,Drama,5282,110,����,Huijoong,Male,32.78,FALSE,None,None,5,0.05,0.03,0.05,0.02,0.15,0.13,0.57,surprise
+198,Inseparable Bros,Drama,4440,1667,������,Seha,Male,42.98,TRUE,Physical Disability,Phy,5,0.01,0.02,0.13,0.03,0.43,0.15,0.23,surprise
+201,Inseparable Bros,Drama,4440,977,�ڵ���,Donggu,Male,32.53,TRUE,Intellectual Disability,Psy,18,0.12,0.05,0.05,0.06,0.29,0.09,0.34,surprise
+200,Inseparable Bros,Drama,4440,442,����,Mihyeon,Female,30.8,FALSE,None,None,10,0.03,0.01,0.03,0.07,0.39,0.15,0.31,surprise
+199,Inseparable Bros,Drama,4440,128,�ڽź�,Father Park,Male,58.88,FALSE,None,None,14,0.07,0.11,0.12,0.05,0.15,0.23,0.27,surprise
+202,Inseparable Bros,Drama,4440,137,���ֻ�,Jusa,Male,55.22,FALSE,None,None,3,0.01,0.01,0.05,0.01,0.47,0.11,0.33,surprise
+203,Inseparable Bros,Drama,4440,220,���� (���� ��),Jeongsoon(Mother),Female,50.17,FALSE,None,None,9,0.01,0,0.04,0.1,0.35,0.18,0.32,surprise
+204,Inseparable Bros,Drama,4440,50,���� ����,Juongsoon's Husband,Male,40.08,FALSE,None,None,4,0,0.02,0.06,0,0.62,0.16,0.14,sadness
+63,Keys to the Heart,Comedy,3970,386,������,Jintae,Male,33.97,TRUE,Autism,Psy,12,0.08,0.06,0.09,0.04,0.2,0.06,0.46,surprise
+62,Keys to the Heart,Comedy,3970,2365,������ (��),Joha,Male,33.16,FALSE,None,None,10,0.08,0.04,0.12,0.03,0.32,0.1,0.31,surprise
+68,Keys to the Heart,Comedy,3970,47,������,Seonggi,Male,34.72,FALSE,None,None,17,0.13,0.04,0.09,0.04,0.21,0.11,0.38,surprise
+69,Keys to the Heart,Comedy,3970,7,������,Soojeong,Female,28.57,FALSE,None,None,25,0,0,0.14,0,0.43,0,0.43,surprise
+67,Keys to the Heart,Comedy,3970,74,����,Bokja,Female,51.78,FALSE,None,None,2,0.01,0,0.07,0,0.15,0.16,0.61,surprise
+64,Keys to the Heart,Comedy,3970,423,���μ� (����),Insook,Female,45.72,FALSE,None,None,7,0.09,0.03,0.1,0.02,0.24,0.15,0.38,surprise
+65,Keys to the Heart,Comedy,3970,214,�Ѱ���,Gayool,Female,29.21,FALSE,None,None,6,0.04,0.01,0.24,0,0.21,0.16,0.34,surprise
+66,Keys to the Heart,Comedy,3970,17,ȫ ����,Madame Hong,Female,36.12,FALSE,None,None,23,0,0,0.18,0.06,0.24,0.12,0.41,surprise
+56,Like for Likes,Romance,5594,780,�̼�ȣ,Sooho,Male,27.61,TRUE,Hearing Impairment,Phy,28,0.04,0.02,0.01,0.25,0.54,0.1,0.04,happiness
+54,Like for Likes,Romance,5594,384,���,Kyeongah,Female,32.97,FALSE,None,None,25,0.01,0.02,0.01,0.13,0.58,0.15,0.1,sadness
+59,Like for Likes,Romance,5594,687,����,Nayeon,Female,28.76,FALSE,None,None,19,0.02,0,0.01,0.15,0.54,0.23,0.05,sadness
+57,Like for Likes,Romance,5594,58,����,Minjung,Female,31.88,FALSE,None,None,24,0.05,0.1,0.02,0.19,0.45,0.09,0.1,happiness
+58,Like for Likes,Romance,5594,848,����,Seongchan,Male,46.79,FALSE,None,None,18,0.04,0.03,0.01,0.14,0.56,0.05,0.18,surprise
+61,Like for Likes,Romance,5594,26,�Ʊ�,Baby,Male,8.19,FALSE,None,None,13,0,0,0.04,0.04,0.73,0.19,0,sadness
+60,Like for Likes,Romance,5594,931,�ֶ�,Jooran,Female,36.38,FALSE,None,None,18,0.02,0,0.02,0.1,0.44,0.29,0.14,sadness
+55,Like for Likes,Romance,5594,791,����,Jinwoo,Male,23.69,FALSE,None,None,16,0.01,0.01,0.02,0.12,0.6,0.1,0.14,surprise
+0,Marathon,Drama,4052,1085,���(����),Kyungsook(Mother),Female,38.4,FALSE,None,None,12,0.02,0.01,0.08,0.05,0.43,0.17,0.23,surprise
+1,Marathon,Drama,4052,1390,���ʿ�,Chowon,Male,28.19,TRUE,Autism,Psy,10,0.03,0.04,0.06,0.03,0.25,0.12,0.46,surprise
+2,Marathon,Drama,4052,402,����(��ġ),Jungwook,Male,43.71,FALSE,None,None,9,0.13,0.06,0.08,0.02,0.32,0.13,0.26,surprise
+3,Marathon,Drama,4052,198,�߿�(����),Joongwon,Male,24.85,FALSE,None,None,3,0.02,0.02,0.1,0.01,0.38,0.22,0.26,surprise
+4,Marathon,Drama,4052,65,���(�ƺ�),Huigeun,Male,39.48,FALSE,None,None,2,0.02,0,0.06,0.03,0.6,0.18,0.11,sadness
+107,Memories of Murder,Crime/Thriller,3663,310,�鱤ȣ,Gwangho,Male,35.09,TRUE,Intellectual Disability,Psy,9,0.05,0.03,0.03,0.06,0.55,0.11,0.17,surprise
+107,Memories of Murder,Crime/Thriller,3663,310,�鱤ȣ,Gwangho,Male,35.09,TRUE,Physical Disability,Phy,9,0.05,0.03,0.03,0.06,0.55,0.11,0.17,surprise
+109,Memories of Murder,Crime/Thriller,3663,42,�Ǳ��,Kiok,Female,28.76,FALSE,None,None,1,0.02,0,0.05,0.05,0.45,0.07,0.36,surprise
+103,Memories of Murder,Crime/Thriller,3663,1213,�ڵθ�,Dooman,Male,35.44,FALSE,None,None,7,0.04,0.05,0.02,0.07,0.6,0.17,0.05,sadness
+111,Memories of Murder,Crime/Thriller,3663,119,������,Hyeongyu,Male,24.25,FALSE,None,None,12,0.01,0,0.02,0.01,0.87,0.09,0.01,sadness
+105,Memories of Murder,Crime/Thriller,3663,1102,������,Taeyoon,Male,32.86,FALSE,None,None,7,0.06,0.02,0.04,0.07,0.66,0.11,0.05,sadness
+108,Memories of Murder,Crime/Thriller,3663,213,�ŵ�ö,Dongcheol,Male,62.47,FALSE,None,None,3,0.02,0,0.07,0.01,0.47,0.37,0.06,sadness
+106,Memories of Murder,Crime/Thriller,3663,85,���̼�,Miseon,Female,27.91,FALSE,None,None,4,0,0.01,0,0,0.82,0.06,0.11,surprise
+110,Memories of Murder,Crime/Thriller,3663,161,������,Byeongsoon,Male,38.25,FALSE,None,None,16,0.04,0.03,0.01,0.12,0.6,0.11,0.08,happiness
+104,Memories of Murder,Crime/Thriller,3663,244,���뱸,Yonggu,Male,36.8,FALSE,None,None,13,0.06,0.05,0.05,0.05,0.62,0.09,0.08,sadness
+157,Miracle in Cell No 7,Comedy,3481,670,�뱸,Yonggu,Male,44.44,TRUE,Intellectual Disability,Psy,27,0.07,0.06,0.08,0.14,0.19,0.22,0.24,surprise
+158,Miracle in Cell No 7,Comedy,3481,41,�豳����,Warden Kim,Male,35.54,FALSE,None,None,13,0.05,0.05,0,0.12,0.59,0.07,0.12,happiness
+154,Miracle in Cell No 7,Comedy,3481,240,����,Manbum,Male,44.26,FALSE,None,None,13,0.03,0.05,0.01,0.05,0.52,0.14,0.2,surprise
+156,Miracle in Cell No 7,Comedy,3481,102,����,Room Master,Male,44.83,FALSE,None,None,13,0.06,0.06,0.03,0.06,0.67,0.06,0.07,surprise
+153,Miracle in Cell No 7,Comedy,3481,220,����,Bongshik,Male,47.61,FALSE,None,None,35,0.12,0.15,0.03,0.14,0.28,0.05,0.22,surprise
+159,Miracle in Cell No 7,Comedy,3481,52,������,Oldman Seo,Male,59.42,FALSE,None,None,37,0,0.08,0.02,0.21,0.44,0.1,0.15,happiness
+151,Miracle in Cell No 7,Comedy,3481,921,���� (��),Yaeseung,Female,23.04,FALSE,None,None,29,0.01,0.02,0.02,0.14,0.38,0.33,0.1,sadness
+152,Miracle in Cell No 7,Comedy,3481,285,���ȯ (��������),Prison Warden,Male,47.9,FALSE,None,None,8,0.07,0,0.05,0.06,0.68,0.12,0.03,sadness
+155,Miracle in Cell No 7,Comedy,3481,333,��ȣ,Choonho,Male,47.29,FALSE,None,None,15,0.02,0.03,0.02,0.08,0.74,0.05,0.06,happiness
+17,My Annoying Brother,Comedy,4650,1276,���ο�(���ΰ�),Dooyeong,Male,22.66,TRUE,Visual Impairment,Phy,10,0.04,0.05,0.01,0.06,0.69,0.13,0.03,sadness
+94,My Bossy Girl,Romance,4255,1389,������,Hyejin,Female,30.94,TRUE,Physical Disability,Phy,28,0.01,0.01,0.07,0.2,0.33,0.17,0.2,happiness
+101,My Bossy Girl,Romance,4255,137,����,Rajin,Female,30.82,TRUE,Physical Disability,Phy,26,0.04,0.04,0.11,0.16,0.15,0.12,0.37,surprise
+99,My Bossy Girl,Romance,4255,92,��ö,Yeongcheol,Male,28.18,TRUE,Physical Disability,Phy,25,0.08,0.07,0.09,0.11,0.15,0.04,0.47,surprise
+98,My Bossy Girl,Romance,4255,116,����,Eunjeong,Female,32.34,TRUE,Physical Disability,Phy,15,0.01,0.01,0.03,0.13,0.34,0.13,0.34,surprise
+16,My Annoying Brother,Comedy,4650,2182,���ν�(��),Doosik,Male,27.86,FALSE,None,None,9,0.02,0.02,0.01,0.08,0.63,0.17,0.06,sadness
+15,My Annoying Brother,Comedy,4650,364,�̼���(��ġ),Soohyeon,Female,26.53,FALSE,None,None,18,0,0.01,0.01,0.13,0.54,0.19,0.11,sadness
+18,My Annoying Brother,Comedy,4650,44,�߳Ⳳ,Middle-Aged Man,Male,30.32,FALSE,None,None,6,0,0.05,0,0.02,0.68,0.23,0.02,sadness
+97,My Bossy Girl,Romance,4255,150,�� ��ġ,Coach Yang,Male,34.33,FALSE,None,None,22,0.03,0.06,0.05,0.08,0.32,0.07,0.39,surprise
+100,My Bossy Girl,Romance,4255,234,����,Yongtae,Male,30.97,FALSE,None,None,8,0.03,0.04,0.06,0.02,0.35,0.14,0.36,surprise
+96,My Bossy Girl,Romance,4255,261,â��,Changgil,Male,36.69,FALSE,None,None,13,0.02,0.01,0.07,0.08,0.21,0.2,0.43,surprise
+95,My Bossy Girl,Romance,4255,676,���ּ�,Huiso,Male,24.41,FALSE,None,None,25,0.08,0.05,0.03,0.17,0.37,0.13,0.18,surprise
+102,My Bossy Girl,Romance,4255,152,���� ��,Hyejin Father,Male,57.02,FALSE,None,None,5,0.03,0.03,0.1,0.02,0.34,0.04,0.45,surprise
+12,Oasis,Drama,3559,1016,�Ѱ���(����),Gongjoo,Female,37.77,TRUE,Brain Lesions,Phy,31,0.05,0.1,0.06,0.21,0.4,0.1,0.08,happiness
+11,Oasis,Drama,3559,1070,ȫ����(����),Jongdoo,Male,35.29,FALSE,None,None,22,0.11,0.04,0.03,0.16,0.44,0.14,0.09,happiness
+14,Oasis,Drama,3559,85,ȫ����,Jongsae,Male,33.86,FALSE,None,None,9,0.05,0.04,0.02,0.08,0.72,0.05,0.05,happiness
+13,Oasis,Drama,3559,115,ȫ����,Jongill,Male,35.85,FALSE,None,None,8,0.11,0.05,0.03,0.05,0.27,0.25,0.23,sadness
+80,Oneday,Romance,3542,65,������,Teamleader Kang,Male,38.62,FALSE,None,None,15,0.03,0.03,0.02,0.06,0.45,0.18,0.23,surprise
+84,Oneday,Romance,3542,78,�輱ȭ,Seonhwa,Female,25.19,FALSE,None,None,12,0,0,0,0.06,0.58,0.35,0.01,sadness
+82,Oneday,Romance,3542,987,�ܹ̼�,Miso,Female,28.61,TRUE,Visual Impairment,Phy,18,0.02,0.04,0.03,0.15,0.47,0.22,0.07,sadness
+83,Oneday,Romance,3542,7,�̼� ������,Miso's Caretaker,Female,31.43,FALSE,None,None,1,0,0,0,0,0.71,0,0.29,surprise
+86,Oneday,Romance,3542,174,�̼� ����,Miso's Mother,Female,35.88,FALSE,None,None,7,0,0.02,0.01,0.04,0.7,0.21,0.02,sadness
+78,Oneday,Romance,3542,1491,�̰���,Kangsoo,Male,31.56,FALSE,None,None,12,0.03,0.04,0.01,0.11,0.47,0.26,0.08,sadness
+79,Oneday,Romance,3542,12,����,Jinyeong,Female,30.08,FALSE,None,None,21,0,0,0,0.25,0.42,0.25,0.08,happiness
+81,Oneday,Romance,3542,87,���븮,Manager Cha,Male,24.44,FALSE,None,None,24,0.07,0.02,0.01,0.15,0.6,0.11,0.03,happiness
+85,Oneday,Romance,3542,39,����ȣ,Jiho,Male,10.74,FALSE,None,None,19,0.1,0.05,0.15,0.1,0.38,0.21,0,sadness
+132,Roaring Currents,Action,3695,73,��������,Woman Jung,Female,38.1,TRUE,Language Disorder,Phy,16,0.07,0.04,0.19,0.03,0.16,0.07,0.44,surprise
+133,Roaring Currents,Action,3695,28,��������,Gurujima,Male,38.5,FALSE,None,None,5,0.21,0,0.29,0,0.25,0.11,0.14,fear
+127,Roaring Currents,Action,3695,103,�輳,Baeseol,Male,41.68,FALSE,None,None,5,0.08,0,0.13,0.04,0.15,0.08,0.53,surprise
+130,Roaring Currents,Action,3695,105,��Ű��ī,Wakijaka,Male,37.68,FALSE,None,None,1,0.05,0.05,0.19,0,0.17,0.24,0.3,surprise
+126,Roaring Currents,Action,3695,383,�̼���,Soonshin,Male,55.8,FALSE,None,None,2,0.08,0.04,0.13,0.01,0.36,0.1,0.29,surprise
+128,Roaring Currents,Action,3695,193,��ȸ,Leehoi,Male,26.67,FALSE,None,None,1,0.02,0.03,0.03,0.02,0.29,0.33,0.29,sadness
+129,Roaring Currents,Action,3695,80,���ؿ�,Joonyeong,Male,34.96,FALSE,None,None,5,0.1,0.07,0.26,0.01,0.21,0.11,0.23,fear
+131,Roaring Currents,Action,3695,11,�Ϸ�,Haru,Male,25.91,FALSE,None,None,21,0,0.09,0.18,0.27,0.09,0.09,0.27,happiness
+167,Silenced,Drama,4860,783,����ȣ,Inho,Male,31.04,FALSE,None,None,4,0.04,0.04,0.08,0.02,0.27,0.19,0.36,surprise
+173,Silenced,Drama,4860,395,��������,Principal's Brother,Male,53.17,FALSE,None,None,3,0.07,0.03,0.11,0.01,0.32,0.17,0.3,surprise
+168,Silenced,Drama,4860,552,�迬��,Yeondoo,Female,28.79,TRUE,Hearing Impairment,Phy,7,0.09,0.01,0.11,0.02,0.35,0.12,0.29,surprise
+170,Silenced,Drama,4860,166,������,Yujin,Female,29.63,FALSE,None,None,3,0.02,0.04,0.12,0,0.3,0.1,0.42,surprise
+176,Silenced,Drama,4860,57,����,Yeonghoon,Male,31.46,FALSE,None,None,3,0.04,0.04,0.14,0.04,0.21,0.16,0.39,surprise
+175,Silenced,Drama,4860,108,���ھ�,Jaaae,Female,32.32,FALSE,None,None,4,0.01,0.02,0.12,0.05,0.18,0.09,0.54,surprise
+169,Silenced,Drama,4860,99,������,Detective Jang,Male,41,FALSE,None,None,3,0.06,0.05,0.13,0.01,0.23,0.07,0.44,surprise
+171,Silenced,Drama,4860,232,���μ�,Minsoo,Male,29.59,TRUE,Hearing Impairment,Phy,11,0.07,0.02,0.09,0.04,0.2,0.2,0.38,surprise
+172,Silenced,Drama,4860,173,������,Yuri,Female,30.25,TRUE,Intellectual Disability,Psy,18,0.06,0.11,0.1,0.04,0.26,0.12,0.31,surprise
+172,Silenced,Drama,4860,173,������,Yuri,Female,30.25,TRUE,Hearing Impairment,Phy,18,0.06,0.11,0.1,0.04,0.26,0.12,0.31,surprise
+174,Silenced,Drama,4860,323,Ȳ��ȣ��,Attorney Hwang,Male,63.86,FALSE,None,None,4,0.17,0.03,0.06,0.02,0.35,0.11,0.26,surprise
+70,Stone Skipping,Drama,3553,790,������,Seokgoo,Male,33.18,TRUE,Intellectual Disability,Psy,23,0.07,0.08,0.01,0.14,0.42,0.16,0.13,sadness
+73,Stone Skipping,Drama,3553,699,�� ����,Teacher Kim,Female,33.27,FALSE,None,None,10,0.02,0.02,0.06,0.09,0.42,0.18,0.2,surprise
+71,Stone Skipping,Drama,3553,611,��ź�,Father Noh,Male,51.02,FALSE,None,None,11,0.15,0.12,0.04,0.04,0.48,0.12,0.05,disgust
+77,Stone Skipping,Drama,3553,65,����,Mr Yeom,Male,65.98,FALSE,None,None,15,0,0.06,0.02,0.14,0.54,0.22,0.03,sadness
+74,Stone Skipping,Drama,3553,96,���,Yongduk,Male,33.85,FALSE,None,None,18,0.02,0,0.03,0.11,0.42,0.39,0.03,sadness
+72,Stone Skipping,Drama,3553,523,����,Eunji,Female,23.98,FALSE,None,None,23,0.03,0.03,0.01,0.16,0.36,0.32,0.09,sadness
+75,Stone Skipping,Drama,3553,71,��ȯ,Jinhwan,Male,39.27,FALSE,None,None,16,0.04,0.04,0.01,0.04,0.35,0.42,0.08,sadness
+76,Stone Skipping,Drama,3553,87,��ö,Haecheol,Male,33.37,FALSE,None,None,18,0.02,0.06,0.03,0.11,0.57,0.15,0.05,sadness
+193,Sympathy For Mr Vengeance,Crime/Thriller,2731,871,��,Ryu,Male,30.08,TRUE,Hearing Impairment,Phy,3,0.03,0.02,0.08,0.01,0.27,0.14,0.45,surprise
+197,Sympathy For Mr Vengeance,Crime/Thriller,2731,37,����,Sister,Female,14.57,FALSE,None,None,13,0.11,0.03,0.11,0.27,0.27,0.08,0.14,happiness
+194,Sympathy For Mr Vengeance,Crime/Thriller,2731,321,����,Dongjin,Male,36.61,FALSE,None,None,5,0.07,0.03,0.05,0.04,0.25,0.15,0.41,surprise
+196,Sympathy For Mr Vengeance,Crime/Thriller,2731,242,����,Yeongmi,Female,33.02,FALSE,None,None,8,0.01,0.02,0.06,0.03,0.15,0.17,0.57,surprise
+195,Sympathy For Mr Vengeance,Crime/Thriller,2731,86,�� ����,Investigation Leader Choi,Male,37.13,FALSE,None,None,1,0.06,0,0.05,0,0.33,0.2,0.37,surprise
+122,The Preparation,Drama,3176,934,�α�,Ingyu,Male,36.48,TRUE,Intellectual Disability,Psy,35,0.03,0.03,0.02,0.37,0.31,0.09,0.13,happiness
+25,The Soup,Drama,394,108,����,Soonsik,Male,52.99,TRUE,Intellectual Disability,Psy,20,0.02,0.12,0.03,0.09,0.41,0.31,0.03,sadness
+26,The Soup,Drama,394,54,���� (��),Soonyeong,Female,8.31,FALSE,Autism,Psy,18,0.07,0.04,0,0.09,0.59,0.15,0.06,sadness
+24,The Soup,Drama,394,59,�ֽ�,Aaeshim,Female,32.36,TRUE,Intellectual Disability,Psy,30,0.05,0.08,0.03,0.2,0.37,0.12,0.14,happiness
+125,The Preparation,Drama,3176,201,����,Moonkyeong,Female,34.4,FALSE,None,None,9,0,0.01,0.03,0.07,0.4,0.36,0.12,sadness
+123,The Preparation,Drama,3176,107,�ڰ���,Chief Park,Male,59.99,FALSE,None,None,15,0,0.02,0.04,0.17,0.54,0.21,0.03,sadness
+121,The Preparation,Drama,3176,1311,�ּ�(����),Aesoon(Mother),Female,55.33,FALSE,None,None,18,0.01,0.02,0.04,0.14,0.3,0.45,0.04,sadness
+124,The Preparation,Drama,3176,62,����,Jeongja,Female,37.85,FALSE,None,None,29,0,0,0,0.35,0.34,0.13,0.18,happiness
+27,The Soup,Drama,394,8,���� ����,Representative Seo,Male,61,FALSE,None,None,25,0,0,0,0.25,0.62,0,0.12,happiness
+23,The Soup,Drama,394,97,�籸,Jaegoo,Male,22.71,FALSE,None,None,19,0.1,0.03,0.02,0.04,0.48,0.3,0.02,sadness
+28,The Soup,Drama,394,6,������ ���ܸ�,Mrs Houseowner,Female,40.83,FALSE,None,None,14,0,0,0.17,0,0.83,0,0,fear
+19,Who Are You,Romance,3884,1458,������(����),Injoo,Female,32.15,TRUE,Hearing Impairment,Phy,13,0.05,0.02,0.14,0.05,0.32,0.15,0.26,surprise
+21,Who Are You,Romance,3884,241,�賲��(ģ��),Namhoon,Male,34.44,FALSE,None,None,6,0.09,0.03,0.13,0.02,0.23,0.34,0.17,sadness
+20,Who Are You,Romance,3884,1755,������(����),Hyungtae,Male,28.46,FALSE,None,None,11,0.06,0.03,0.12,0.05,0.32,0.17,0.25,surprise
+22,Who Are You,Romance,3884,70,�ֺ���(����1),Boyeong,Female,34.99,FALSE,None,None,22,0.01,0.04,0.31,0.07,0.1,0.23,0.23,fear

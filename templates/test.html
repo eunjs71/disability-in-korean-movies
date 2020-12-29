@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<div id="toggle"; style="color:gray">
+        <span class="active"> Happiness &nbsp;&nbsp;&nbsp; </span>
+        <span> &nbsp; Sadness </span>
+        <span> &nbsp;Fear </span>
+        <span> &nbsp;Disgust </span>
+        <span> &nbsp;Surprise </span>
+        <span> &nbsp;Anger </span>
+        <span> &nbsp; Neutral </span>
+</div>
+
+<div id="happiness" class="svg-container"></div>
+<div id="sadness" class="svg-container"></div>
+<div id="fear" class="svg-container"></div>
+<div id="disgust" class="svg-container"></div>
+<div id="surprise" class="svg-container"></div>
+<div id="anger" class="svg-container"></div>
+<div id="neutral" class="svg-container"></div>
+<div id="legend" class="svg-container"></div>
+
+
+    <style>
+
+        #disgust { display:none; }
+        #sadness { display:none; }
+        #fear { display:none; }
+        #surprise { display:none; }
+        #anger { display:none; }
+        #neutral { display:none; }
+
+        #toggle {
+            width: 535px;
+            text-align: center;
+            padding: 1px;
+            font-size: 12px;
+            font-family: Noto Sans KR
+        }
+
+        span {
+        width: 70px;
+        height: 25px;
+        display: inline-block;
+        cursor: pointer;
+        }
+
+        span.active {
+        font-weight: bold;
+        color:rgb(65, 65, 65);
+        }
+
+        div.tooltip {
+        position: absolute;
+        text-align: left;
+        width: 180px;
+        height: 52px;
+        padding: 10px;
+        font: 11px Noto Sans KR;
+        color: rgb(65, 65, 65);
+        background: rgb(233, 233, 233);
+        border: 0px;
+        border-radius: 4px;
+        pointer-events: none;}
+
+    </style>
+
+    <head>
+        <meta charset="utf-8">
+        <title>treemap</title>
+        
+        <script src ="{{ url_for('static', filename='d3.js') }}"></script>
+        <script src ="{{ url_for('static', filename='jquery-3.5.1.min.js') }}"></script>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+    
+    </head>
+
+
+    <body>
+        <script src ="{{ url_for('static', filename='viz_treemap.js') }}"></script>
+    </body>
+</html>

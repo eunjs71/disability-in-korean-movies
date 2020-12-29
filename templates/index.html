@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <!--<script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>-->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="{{ url_for('static', filename='vizserver.css') }}", rel="stylesheet">
+    
+    
+    
+    <title>DISABILITY REPRESENTATION IN KOREAN FILMS</title>
+  </head>
+  <body>
+    
+    <!--<div style="position:fixed">-->
+    <!--  <p id = "scroll_position"></p>-->
+    <!--</div>-->
+    
+    
+    
+    <div class="container-fluid" style="text-align:center;">
+      
+      
+      <div class="title">
+        <h1 class="display-1 text-center" style="margin-top:340px; font-size:70px;">Disability representation in Korean films</h1>
+        <p class="text-center" style="margin-top:50px;  font-size:30px;">2020 Fall Data Analysis & Visualization project</br>mts.team@snu</p>
+      </div>
+      
+      <div style="margin-top:143px;">
+        <p class="text-center" style="font-size:25px;">People with disabilities make up 5% of the Korean population.*<br/>However, out of the 1,080 of films that have been released from 2000 to 2020,</br>only a small number have characters with disabilities.**</p>
+      </div>
+      
+      <div style="margin-top:140px;" align="center">
+        <svg id="twenty_characters"></svg>
+      </div>
+      
+      <div style="margin-top:134px;">
+        <p class="text-center" style="font-size:100px;">38</p>
+        <p class="text-center" style="font-size:25px;">We analyzed 38 characters with disabilities in 28 of these films<br/>to explore the current state of disability representation in Korean films.</p>
+      </div>
+      
+      <div id="intro" align="center">
+        <div class="row" style="margin-top:240px; width: 1680px;">
+          <div class="col-sm">
+            
+            <div id="intro1" style="opacity:1; padding-left: 100px; padding-right:70px; padding-top:100px;">
+              <p class="text-center" style="font-size:45px;">Gender</p>
+              <p class="text-center" style="font-size:23px; margin-top:70px;">We assigned the gender of the characters based on official film information and on how they were referred to throughout the film.<br/><br/>The gender distribution favors the appearance of male characters, their number 35% more than those of female characters.</p>
+              <div class="row" style="height: 80px; width: 670px; margin-top: 80px; margin-left: 40px; margin-right: 40px; margin-bottom: 100px; background: #F3F3F3; padding-left: 10px; padding-right:10px; padding-top:24px;">
+                  <p class="text-center" style="font-size:20px;">Hover over the images for more information about the character.</p>
+              </div>
+            </div>
+          
+            <div id="intro2" style="margin-top:200px; opacity:0.2;  padding-left: 100px; padding-right:70px; padding-top:100px;">
+              <p class="text-center" style="font-size:45px;">Age</p>
+              <p class="text-center" style="font-size:23px; margin-top:70px;">Age was also based on official film information and whether it was mentioned in the film. In cases where it is unclear, it was based on the actor's age at the time of filming.<br/><br/>When it comes to age distribution, the group of characters in their 20s was the largest. No characters in their 50s or older appeared.</p>
+              <div class="row" style="height: 80px; width: 670px; margin-top: 80px; margin-left: 40px; margin-right: 40px; margin-bottom: 100px; background: #F3F3F3; padding-left: 10px; padding-right:10px; padding-top:24px;">
+                  <p class="text-center" style="font-size:20px;">Hover over the images for more information about the character.</p>
+              </div>
+            </div>
+            
+            <div id="intro3" style="margin-top:200px; opacity:0.2;  padding-left: 100px; padding-right:70px; padding-top:100px;">
+              <p class="text-center" style="font-size:45px;">Disability</p>
+              <p class="text-center" style="font-size:23px; margin-top:70px;">The most common group represented was people with hearing impairments, followed by people with intellectual disabilities, physical disabilities, ASD, and visual impairments. People with language disorders and brain lesions had the fewest appearances in their respective films.</p>
+              <div class="row" style="height: 80px; width: 670px; margin-top: 80px; margin-left: 40px; margin-right: 40px; margin-bottom: 100px; background: #F3F3F3; padding-left: 10px; padding-right:10px; padding-top:24px;">
+                  <p class="text-center" style="font-size:20px;">Hover over the images for more information about the character.</p>
+              </div>
+            </div>
+            
+          </div>
+          
+          <div class="col-sm">
+            <div id="intro_svg_div">
+              <div id="intro_graph">
+                <svg id="intro_svg"> </svg>  
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class="blank_300"></div>
+      
+      <div class="result">
+        <p class="text-center" style="font-size:45px;">Result</p>
+        <p class="text-center" style="font-size:25px;">We were able to identify estimated appearance rates of both characters with and</br>without disabilities, as well as the different emotions expressed throughout the films.</p>
+      </div>
+      
+      <div class="blank_300"></div>
+      
+      <div style="height: 3770px;" align="center">
+        <div style="position: absolute; height: 3770px; width:1440px; opacity:0;">
+          <div id="result_div1" class="row">
+            <div style="background-color: #F3F3F3; height:700px"></div>
+            <div class="blank_80"></div>
+            <p class="text-center" style="font-size:45px;">In whole: Different patterns according to gender and age</p>
+            <div class="blank_60"></div>
+            <p class="text-center" style="font-size:23px;">In the case of female disabled characters with a high appearance ratio, most were physically impaired. Their age was heavily concentrated around 30. On the other hand, male characters were composed of a mixture of physical & mental impairments, and the age range was more diverse than among women.</p>
+          </div>
+          
+          <div class="blank_200"></div>
+          
+          <div id="result_div2" class="row">
+            <div style="background-color: #e9e9e9; height:700px"></div>
+            <div class="blank_80"></div>
+            <p class="text-center" style="font-size:45px;">Romance: Man falls in love with disabled woman</p>
+            <div class="blank_60"></div>
+            <p class="text-center" style="font-size:23px;">In most romance movies, heroines were physically impaired. Their male counterparts usually did not have disabilities and appeared more, which can be seen in parts of the story where they attempt to win the female character’s heart by looking for them or trying to gain their attention. For both genders, there were no mentally impaired characters that appeared in the romance genre. The main character and supporting actor can be clearly distinguished by their appearance rates.</p>
+          </div>
+          
+          <div class="blank_200"></div>
+          
+          <div id="result_div3" class="row">
+            <div style="background-color: #e9e9e9; height:700px"></div>
+            <div class="blank_80"></div>
+            <p class="text-center" style="font-size:45px;">Comedy: Story of a mentally impaired man and his family</p>
+            <div class="blank_60"></div>
+            <p class="text-center" style="font-size:23px;">Many disabled male characters are mentally impaired, and they commonly have 'helper' characters (e.g. brothers) who have higher appearance ratios than them. There were no female characters with disabilities represented in comedy movies. Instead, female characters present do not have disabilities and are either characters looked after (e.g. daughters) or relied on (e.g. mothers) by male characters with disabilities.</p>
+          </div>
+        </div>
+        <div class="sticky" style="height:1150px; width: 1440px;" align="center">
+          <div id="result_div3" class="row">
+            <div class="col-sm">
+              <svg id="svgMale" width="695" height="740">
+                <!-- <rect id="highlight_male" class="highlight male_rect_whole" x="170" y="300" width="400" height="200"></rect> -->
+              </svg>
+            </div>
+            <div class="col-sm">
+              <svg id="svgFemale" width="695" height="740">
+                <!-- <rect id="highlight_female" class="highlight female_rect_whole" x="170" y="300" width="400" height="200"></rect> -->
+              </svg>
+            </div>
+          </div>
+          <svg id="legend" width="1000" height="60">
+            <image id="none" href="/images/X.png"  y="20" width="20" height="20" opacity="0.6"></image>
+            <circle id="phy" class="circle_opacity_045" cy="30" r="12"></circle>
+            <circle id="psy" class="circle_opacity_045" cy="30" r="12"></circle>
+    
+            <text id="none-text" y="35" font-family="sans-serif" font-size="20px">without disability</text>
+            <text id="phy-text" y="35" font-family="sans-serif" font-size="20px">physically impaired</text>
+            <text id="psy-text" y="35" font-family="sans-serif" font-size="20px">mentally impaired</text>
+          </svg>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          <div class="blank_80"></div>
+            <div  id="sticky_SP1" class="opacity_active">
+              <p class="text-center" style="font-size:45px;">In whole: Different patterns according to gender and age</p>
+              <div class="blank_60"></div>
+              <p class="text-center" style="font-size:23px;">In the case of female disabled characters with a high appearance ratio, most were physically impaired. Their age was heavily concentrated around 30. On the other hand, male characters were composed of a mixture of physical & mental impairments, and the age range was more diverse than among women.</p>
+            </div>
+            <div id="sticky_SP2"class="opacity_inactive">
+              <p class="text-center" style="font-size:45px;">Romance: Man falls in love with disabled woman</p>
+              <div class="blank_60"></div>
+              <p class="text-center" style="font-size:23px;">In most romance movies, heroines were physically impaired. Their male counterparts usually did not have disabilities and appeared more, which can be seen in parts of the story where they attempt to win the female character’s heart by looking for them or trying to gain their attention. For both genders, there were no mentally impaired characters that appeared in the romance genre. The main character and supporting actor can be clearly distinguished by their appearance rates.</p>
+            </div>
+            <div id="sticky_SP3" class="opacity_inactive">
+              <p class="text-center" style="font-size:45px;">Comedy: Story of a mentally impaired man and his family</p>
+              <div class="blank_60"></div>
+              <p class="text-center" style="font-size:23px;">Many disabled male characters are mentally impaired, and they commonly have 'helper' characters (e.g. brothers) who have higher appearance ratios than them. There were no female characters with disabilities represented in comedy movies. Instead, female characters present do not have disabilities and are either characters looked after (e.g. daughters) or relied on (e.g. mothers) by male characters with disabilities.</p>
+            </div>
+        </div>
+      </div>
+      
+      <div class="blank_200"></div>
+      <div class="blank_200"></div>
+      
+      
+      
+      
+      
+      
+      
+      <div id="margo" align="center">
+        <div id="result_div4" class="row" align="center" style="width: 1680px;">
+          <div class="col-sm" style=" padding-left: 100px; padding-right:70px">
+            <p class="text-center" style="font-size:45px;">Emotional diversity of disabled characters</p>
+            <p class="text-center" style="font-size:23px; margin-top:60px;">Characters with hearing impairments were found to have expressed the most amount of sadness, fear, and surprise, while those with intellectual disabilities were shown to have portrayed the most expressions of happiness and disgust.</p>
+            <div style='width: 585px; height: 100px; margin-top:60px; background: #F3F3F3; padding-left: 10px; padding-right:10px; padding-top:20px;'>
+              <p class="text-center" style="font-size:20px;">Click through the emotions and mouse over the rectangles to view each character’s displayed emotion in detail.</p>
+            </div>
+          </div>
+          <div class="col-sm">
+            
+            <div id="toggle_treemap"; style="color:gray">
+              <span id="happiness_btn" class="active"> Happiness </span>
+              <span id="sadness_btn">  Sadness </span>
+              <span id="fear_btn"> Fear </span>
+              <span id="disgust_btn"> Disgust </span>
+              <span id="surprise_btn"> Surprise </span>
+              <span id="anger_btn"> Anger </span>
+              <span id="neutral_btn"> Neutral </span>
+            </div>
+            
+            <div id="happiness" class="svg-container"></div>
+            <div id="sadness" class="svg-container"></div>
+            <div id="fear" class="svg-container"></div>
+            <div id="disgust" class="svg-container"></div>
+            <div id="surprise" class="svg-container"></div>
+            <div id="anger" class="svg-container"></div>
+            <div id="neutral" class="svg-container"></div>
+            <div id="legend" class="svg-container"></div>
+            
+          </div>
+        </div>  
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <div class="blank_200"></div>
+      
+      <div id="algorithm_right" align="center">
+        <div id="result_div5" class="row"  align="center" style="width: 1680px;">
+          <div class="col-sm" style=" padding-left: 100px; padding-right:70px">
+            <p class="text-center" style="font-size:45px;">But... Is the algorithm</br>"right"?</p>
+            <p class="text-center" style="font-size:23px; margin-top:60px;">However, a closer, frame-by-frame approach shows possible detection mistakes involving algorithms. For instance, there are cases where characters identified to have displayed happiness were actually expressing disgust and vice-versa. This suggests that there remain unclear distinctions between certain emotions and how they are conveyed by disabled characters.</p>
+            <div style='width: 585px; height: 130px; margin-top:60px; background: #F3F3F3; padding-left: 10px; padding-right:10px; padding-top:20px;'>
+              <p class="text-center" style="font-size:20px;">Hover over the gray bar under each character to see what the algorithm says about the character’s facial expressions.</br>Do you agree with the algorithm’s detections?</p>
+            </div>
+          </div>
+          <div id="barcodeDivs" class="col-sm">
+            <p id="toggle_barcode"; style="color: gray">
+              <span id="kibong_btn" class="active"> Kibong </span>
+              <span id="yonggu_btn"> Yonggu </span>
+              <span id="donggu_p_btn"> Donggu_P </span>
+              <span id="myeongjae_btn"> Myeongjae </span>
+              <span id="chowon_btn"> Chowon </span>
+            </p>
+            <!-- div for each character, div6 for updating screenshots -->
+            <div id ="barcode_div1"></div>
+            <div id ="barcode_div2"></div>
+            <div id ="barcode_div3"></div>
+            <div id ="barcode_div4"></div>
+            <div id ="barcode_div5"></div>
+            <div id ="barcode_div6"></div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="blank_300"></div>
+      
+      <div>
+        <p class="text-center" style="font-size:45px;">Discussion</p>
+        <p class="text-center" style="font-size:25px;">We propose a discussion about the implications of misrepresentations regarding<br>1) movie characters and real-world statistics, 2) acting patterns, and 3) algorithm andg<br>dataset biases on the exploration of disability representations in films.</p>
+      </div>
+      
+      <div class="blank_300"></div>
+      
+      <div id="discussions" align="center">
+        <div id="discussion_div1" class="row"  align="center" style="width: 1680px;">
+          <div class="col-sm" style=" padding-left: 100px; padding-right:70px">
+            <p class="text-center" style="font-size:45px;">Misrepresentation of the Ratio</p>
+            <p class="text-center" style="font-size:23px; margin-top:100px;">Compared to the distribution of disabilities in the real world***, there are major differences in the ratio. For example, people with physical disabilities make up nearly 50% of the total disabled people in Korea, but there were only 17% of them among the 38 movie characters. 1% of registered disabled people had autism, but there were 9% of the movie characters with the disability.This result shows that some disabilities are under/overrepresented in movies. We assume that this is because certain disability types are 'chosen' more for the plot instead of representing the natural ratio.</p>
+          </div>
+          <div class="col-sm">
+            <svg id="discussion_img1" width="700" height="740">
+            <image href="/images/discussion1.png" y="-30" width="700" height="700"></image>
+            </svg>
+          </div>
+        </div>
+        
+        <div class="blank_200"></div>
+        
+        <div id="discussion_div2" class="row"  align="center" style="width: 1680px;">
+          <div class="col-sm" style=" padding-left: 100px; padding-right:70px">
+            <p class="text-center" style="font-size:45px;">Acting like 'the disabled'</p>
+            <p class="text-center" style="font-size:23px; margin-top:100px;">As we have seen emotion detection mistakes in the previous section, we discuss two assumptions.<br><br>Firstly, this might have occurred due to acting performances. As non-disabled actors portrayed all 38 disabled characters, there is a chance that their acting patterns ('acting like the disabled') are biased. This bias may have intervened in the process and affected the detected emotion results.</p>
+          </div>
+          <div class="col-sm">
+            <svg id="discussion_img3" width="700" height="740">
+              <image href="/images/discussion2.png" y="-30" width="500" height="700"></image>
+            </svg>
+          </div>
+        </div>
+        
+        <div class="blank_200"></div>
+        
+        <div id="discussion_div3" class="row"  align="center" style="width: 1680px;">
+          <div class="col-sm" style=" padding-left: 100px; padding-right:70px">
+            <p class="text-center" style="font-size:45px;">"They feel disgust when they smile"</p>
+            <p class="text-center" style="font-size:23px; margin-top:100px;">Secondly, we can assume that there exists a bias in the emotion detection algorithm itself. On the right, there is a face detected as 'disgust', but with a very high smile value and consecutive images detected as 'happy'. We have found similar patterns particularly among mentally impaired characters.<br><br>This may be because of how disabled people are underrepresented in the algorithm training dataset. Unlike many discussions being made about gender and racial bias, disability bias in datasets and its negative influence are barely mentioned and recognized.</p>
+          </div>
+          <div class="col-sm">
+            <svg id="discussion_img3" width="700" height="740">
+             <image href="/images/discussion3_kibong.png" y="-30" width="700" height="700"></image>
+            </svg>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="blank_200"></div>
+      <div class="blank_200"></div>
+      
+      <p class="text-center" style="font-size:40px;">About the data</p>
+      <div class="blank_150"></div>
+      <p class="text-center" style="font-size:20px;">References:</br>* http://www.akomnews.com/bbs/board.php?bo_table=news&wr_id=40499</br>** http://www.kobis.or.kr/kobis/business/stat/offc/searchOfficHitTotList.do?searchMode=year#none</br>***Ministry of Health and Welfare, Statistics of Registered Disabled People(2018)</br></br>Image datasets of movie frames were collected by capturing 1fps (frame per second) screenshots, characters appearing in</br>each frame then detected and analyzed through the face++ face detection API. The corresponding dataset contains each character’s</br>(detected) facial expressions per frame, which was then manually labelled with the character’s name and disability type.</p>
+      <div class="blank_80"></div>
+      <p class="text-center" style="font-size:20px;">Sep.18.2020 ~ ?</p>
+      <div class="blank_60"></div>
+      <p class="text-center" style="font-size:20px;">Credits:</br>Jinsu Eun, Youngjin Kwon, Margaux Lim, Minjung Hong, Seora Park</p>
+      <div class="blank_60"></div>
+      <p class="text-center" style="font-size:20px;">and special thanks to:</br>Hwajung Hong</p>
+      
+        
+      
+      <div class="blank_200"></div>
+      
+      
+    </div>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+    
+    <script src ="{{ url_for('static', filename='viz_twenty_characters.js') }}"></script>
+    <script src ="{{ url_for('static', filename='viz_intro.js') }}"></script>
+    <script src ="{{ url_for('static', filename='viz_parallax.js') }}"></script>
+    <script src ="{{ url_for('static', filename='viz_result.js') }}"></script>
+    <script src ="{{ url_for('static', filename='debug.js') }}"></script>
+    <script src ="{{ url_for('static', filename='viz_treemap.js') }}"></script>
+    <script src ="{{ url_for('static', filename='viz_barcode.js') }}"></script>
+    
+    
+  </body>
+</html>

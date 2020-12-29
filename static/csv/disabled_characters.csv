@@ -1,0 +1,49 @@
+Column1,movie_name,genre,human_frame,c_count,eng_name,gender,av_age,disabled,d_type,av_smile,anger,disgust,fear,happiness,neutral,sadness,surprise,most_emotion_expressed
+,,,,,Disabled,,,,,,,,,,,,,
+,,,,,Physical Disability,,,,Disabled,,,,,,,,,
+,,,,,Visual Impairment,,,,Disabled,,,,,,,,,
+,,,,,Hearing Impairment,,,,Disabled,,,,,,,,,
+,,,,,Intellectual Disability,,,,Disabled,,,,,,,,,
+,,,,,Autism,,,,Disabled,,,,,,,,,
+,,,,,Language Disorder,,,,Disabled,,,,,,,,,
+,,,,,Brain Lesions,,,,Disabled,,,,,,,,,
+198,Inseparable Bros,Drama,4440,1667,Seha,Male,42.98,TRUE,Physical Disability,5,0.01,0.02,0.13,0.03,0.43,0.15,0.23,surprise
+94,My Bossy Girl,Romance,4255,1389,Hyejin,Female,30.94,TRUE,Physical Disability,28,0.01,0.01,0.07,0.2,0.33,0.17,0.2,happiness
+17,My Annoying Brother,Comedy,4650,1276,Dooyeong,Male,22.66,TRUE,Visual Impairment,10,0.04,0.05,0.01,0.06,0.69,0.13,0.03,sadness
+168,Silenced,Drama,4860,552,Yeondoo,Female,28.79,TRUE,Hearing Impairment,7,0.09,0.01,0.11,0.02,0.35,0.12,0.29,surprise
+144,Glove,Drama,5519,128,Jinman,Male,27.11,TRUE,Hearing Impairment,6,0.03,0.02,0.13,0.01,0.27,0.2,0.34,surprise
+82,One Day,Romance,3542,987,Miso,Female,28.61,TRUE,Visual Impairment,18,0.02,0.04,0.03,0.15,0.47,0.22,0.07,sadness
+119,Believer,Crime/Thriller,4389,33,Dongyeong,Male,31.21,TRUE,Hearing Impairment,13,0.03,0.06,0.09,0.06,0.3,0.12,0.33,surprise
+101,My Bossy Girl,Romance,4255,137,Rajin,Female,30.82,TRUE,Physical Disability,26,0.04,0.04,0.11,0.16,0.15,0.12,0.37,surprise
+193,Sympathy For Mr. Vengeance,Crime/Thriller,2731,871,Ryu,Male,30.08,TRUE,Hearing Impairment,3,0.03,0.02,0.08,0.01,0.27,0.14,0.45,surprise
+87,Blind,Crime/Thriller,2972,1141,Sooah,Female,30.83,TRUE,Visual Impairment,13,0.01,0.02,0.03,0.11,0.62,0.15,0.06,sadness
+201,Inseparable Bros,Drama,4440,977,Donggu_P,Male,32.53,TRUE,Intellectual Disability,18,0.12,0.05,0.05,0.06,0.29,0.09,0.34,surprise
+107,Memories of Murder,Crime/Thriller,3663,310,Gwangho,Male,35.09,TRUE,Intellectual Disability,9,0.05,0.03,0.03,0.06,0.55,0.11,0.17,surprise
+107,Memories of Murder,Crime/Thriller,3663,310,Gwangho,Male,35.09,TRUE,Physical Disability,9,0.05,0.03,0.03,0.06,0.55,0.11,0.17,surprise
+37,Journey to My Boy,Drama,3376,1461,Bohyeon,Female,28.94,TRUE,Hearing Impairment,12,0.05,0.04,0.04,0.09,0.42,0.32,0.04,sadness
+19,Who Are You,Romance,3884,1458,Injoo,Female,32.15,TRUE,Hearing Impairment,13,0.05,0.02,0.14,0.05,0.32,0.15,0.26,surprise
+38,Journey to My Boy,Drama,3376,612,Seongrak,Male,34.48,TRUE,Hearing Impairment,17,0.04,0.03,0.02,0.13,0.47,0.23,0.06,sadness
+25,The Soup,Drama,394,108,Soonsik,Male,52.99,TRUE,Intellectual Disability,20,0.02,0.12,0.03,0.09,0.41,0.31,0.03,sadness
+24,The Soup,Drama,394,59,Aaeshim,Female,32.36,TRUE,Intellectual Disability,30,0.05,0.08,0.03,0.2,0.37,0.12,0.14,happiness
+29,Barefoot Gi Bong,Comedy,3200,978,Kibong,Male,41.89,TRUE,Intellectual Disability,50,0.05,0.13,0.03,0.35,0.26,0.13,0.05,happiness
+99,My Bossy Girl,Romance,4255,92,Yeongcheol,Male,28.18,TRUE,Physical Disability,25,0.08,0.07,0.09,0.11,0.15,0.04,0.47,surprise
+63,Keys to the Heart,Comedy,3970,386,Jintae,Male,33.97,TRUE,Autism,12,0.08,0.06,0.09,0.04,0.2,0.06,0.46,surprise
+157,Miracle in Cell No. 7,Comedy,3481,670,Yonggu,Male,44.44,TRUE,Intellectual Disability,27,0.07,0.06,0.08,0.14,0.19,0.22,0.24,surprise
+70,Stone Skipping,Drama,3553,790,Seokgoo,Male,33.18,TRUE,Intellectual Disability,23,0.07,0.08,0.01,0.14,0.42,0.16,0.13,sadness
+1,Marathon,Drama,4052,1390,Chowon,Male,28.19,TRUE,Autism,10,0.03,0.04,0.06,0.03,0.25,0.12,0.46,surprise
+98,My Bossy Girl,Romance,4255,116,Eunjeong,Female,32.34,TRUE,Physical Disability,15,0.01,0.01,0.03,0.13,0.34,0.13,0.34,surprise
+56,Like for Likes,Romance,5594,780,Sooho,Male,27.61,TRUE,Hearing Impairment,28,0.04,0.02,0.01,0.25,0.54,0.1,0.04,happiness
+42,Cheer Up Mr. Lee,Comedy,4265,1267,Chulsoo,Male,35.55,TRUE,Intellectual Disability,4,0.03,0.05,0.05,0.02,0.35,0.35,0.14,sadness
+122,The Preparation,Drama,3176,934,Ingyu,Male,36.48,TRUE,Intellectual Disability,35,0.03,0.03,0.02,0.37,0.31,0.09,0.13,happiness
+179,Innocent Witness,Drama,5282,1060,Jiwoo,Female,28.57,TRUE,Autism,9,0.04,0.01,0.1,0.06,0.17,0.17,0.45,surprise
+138,Glove,Drama,5519,264,Daegeun,Male,28.12,TRUE,Hearing Impairment,7,0.01,0.03,0.13,0.01,0.15,0.23,0.44,surprise
+171,Silenced,Drama,4860,232,Minsoo,Male,29.59,TRUE,Hearing Impairment,11,0.07,0.02,0.09,0.04,0.2,0.2,0.38,surprise
+163,Innocence,Drama,4446,129,Jeongsoo,Male,28.07,TRUE,Autism,10,0.11,0.06,0.04,0.05,0.19,0.14,0.4,surprise
+132,Roaring Currents,Action,3695,73,Woman Jung,Female,38.1,TRUE,Language Disorder,16,0.07,0.04,0.19,0.03,0.16,0.07,0.44,surprise
+118,Believer,Crime/Thriller,4389,37,Jooyeong,Female,28.03,TRUE,Hearing Impairment,20,0,0,0.24,0.03,0.22,0.11,0.41,surprise
+172,Silenced,Drama,4860,173,Yuri,Female,30.25,TRUE,Intellectual Disability,18,0.06,0.11,0.1,0.04,0.26,0.12,0.31,surprise
+172,Silenced,Drama,4860,173,Yuri,Female,30.25,TRUE,Hearing Impairment,18,0.06,0.11,0.1,0.04,0.26,0.12,0.31,surprise
+134,Glove,Drama,5519,843,Myeongjae,Male,29.62,TRUE,Hearing Impairment,10,0.06,0.03,0.12,0.01,0.25,0.09,0.44,surprise
+5,"Au Revoir, UFO",Romance,4476,1758,Kyungwoo,Female,28.84,TRUE,Visual Impairment,35,0.02,0.02,0.01,0.32,0.44,0.14,0.05,happiness
+12,Oasis,Drama,3559,1016,Gongjoo,Female,37.77,TRUE,Brain Lesions,31,0.05,0.1,0.06,0.21,0.4,0.1,0.08,happiness
+186,Bunt,Comedy,2350,426,Donggu_H,Male,11.65,TRUE,Intellectual Disability,28,0.04,0.08,0.01,0.2,0.46,0.14,0.07,happiness
