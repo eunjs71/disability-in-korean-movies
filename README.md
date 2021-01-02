@@ -14,7 +14,7 @@ Each character's demographic data (e.g. gender, age, disability type) and film g
 
 Image datasets of movie frames were collected by capturing screenshots by 1FPS (frame per second). Through face++ face detection API, characters appearing in each frame were detected and identified automatically, then labelled with their name, gender, age, and disability type. Then, through face++ emotion detection API, each character's possible facial expressions were detected per frame.
 
-### Final dataset
+### Final dataset (in static/csv/)
 - datalist.csv: all the 38 characters included in this analysis, labelled by age, gender, disability type
 - MCS_all_character.csv: all characters detected in movie screenshots, both disabled or not
 	- column [c_count]: calculated number of appearance among the movie screenshots
