@@ -6,7 +6,7 @@ By Team Magic Conch Shell, as a course project of *Data Visualization and Analys
 To see our final product and analysis on the data, please visit our [interactive visualization website](https://disability-in-korean-movies.herokuapp.com/) or watch our [demo video](https://youtu.be/3c733rlrjjw). Any comments or suggestions are welcome.
 
 ## 0. About the project
-This project's goal is to explore how disabled individuals has been represented in Korean movies for the past 20 years. We first gathered 28 Korean movies which depict characters with disability. Then, using [face++](https://www.faceplusplus.com/) face detection API, we automatically detected and identified each character's face emotions. The project is in progress to convey our analysis of character emotion and motion data via an interactive visualization website.
+This project's goal is to explore how disabled individuals have been represented in Korean movies for the past 20 years. We first gathered 28 Korean movies which depict characters with disability. Then, using [face++](https://www.faceplusplus.com/) face detection API, we automatically detected and identified each character's face emotions. The project is in progress to convey our analysis of character emotion and motion data via an interactive visualization website.
 
 ## 1. About the data
 ### Data collection
@@ -28,7 +28,7 @@ Image datasets of movie frames were collected by capturing screenshots by 1FPS (
 
  1. How are the disabled characters demographically(age, gender, disability type) distributed?
  2. Are there any suggested patterns in characters' demographic status for certain genres?
- 3. How much emotional diversity does the disabled characters show, by disability type?
+ 3. How much emotional diversity do the disabled characters show, by disability type?
 
 ## 3. API and libraries used in this project
 - [Face++](https://www.faceplusplus.com/) face detection, FaceAlbum, emotion recognition API: detecting faces in movie screenshots, grouping face IDs of the same character, detecting face expressions and emotions
